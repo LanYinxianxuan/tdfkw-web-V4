@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: url("dt.png") center/cover no-repeat fixed;
+  min-height: 100vh;
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.418);
+}
+.header-r {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer {
+  background: rgba(255, 255, 255, 0.418);
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: 3rem;
+  border-top: 1px solid #eee;
+  font-size: 0.98em;
+}
+.footer p {
+  margin: 0.5rem 0;
+  color: #000;
+  font-size: 0.95em;
+}
