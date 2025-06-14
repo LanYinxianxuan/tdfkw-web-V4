@@ -7,7 +7,7 @@ sudo service apache2 start
 sudo service mariadb start
 
 # 设置项目路径
-PROJECT_DIR="$HOME/Desktop/tdfkwwebv4"
+PROJECT_DIR="$HOME/Desktop/tdfkw-web-V4"
 
 # 设置 Apache 访问权
 sudo chmod -R 755 "$PROJECT_DIR"
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS users (
 EOF
 
 # 打开注册页面
-echo "访问 http://localhost:8080/tdfkwwebv4/register.html"
-xdg-open "http://localhost:8080/tdfkwwebv4/register.html" >/dev/null 2>&1 &
+echo "访问 http://localhost:8080/tdfkw-web-V4/index.html"
+xdg-open "http://localhost:8080/tdfkw-web-V4/index.html" >/dev/null 2>&1 &
 
 echo "启动完成"
