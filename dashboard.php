@@ -5,7 +5,7 @@ if (!isset($_SESSION['username'])) {
   exit;
 }
 
-$conn = new mysqli("localhost", "root", "a53092520110", "user_system");
+$conn = new mysqli("110.42.70.241", "tdfkw", "a53092520110", "users");
 if ($conn->connect_error) { die("数据库连接失败: " . $conn->connect_error); }
 $username = $_SESSION['username']; $sql = "SELECT * FROM users WHERE username =
 ?"; $stmt = $conn->prepare($sql); $stmt->bind_param("s", $username);

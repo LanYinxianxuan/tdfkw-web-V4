@@ -9,10 +9,10 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 // 数据库连接信息
-$host = "localhost";
-$user = "root";
+$host = "110.42.70.241";
+$user = "tdfkw";
 $password = "a53092520110";
-$dbname = "user_system";
+$dbname = "users";
 
 // 创建数据库连接
 $conn = new mysqli($host, $user, $password, $dbname);

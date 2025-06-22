@@ -2,7 +2,7 @@
 session_start();
 
 // 连接数据库
-$conn = new mysqli("localhost", "root", "a53092520110", "user_system");
+$conn = new mysqli("110.42.70.241", "tdfkw", "a53092520110", "users");
 
 // 检查连接
 if ($conn->connect_error) {
